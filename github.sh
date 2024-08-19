@@ -4,14 +4,14 @@
 npm run src:build
 
 # 2.进入打包目录
-cd web-electron
+cd web-nuxt
 
 # 3.发布到gh-pages分支
 git init
 git checkout --orphan gh-pages
 git add .
 git commit -m 'gh-pages'
-git remote add origin https://github.com/zhoubichuan/web-electron.git
+git remote add origin https://github.com/zhoubichuan/web-nuxt.git
 git push -f origin gh-pages
 
 # 4.返回初始目录

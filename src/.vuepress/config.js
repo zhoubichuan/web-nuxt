@@ -1,10 +1,10 @@
 const path = require("path");
 module.exports = {
-  title: 'electron学习笔记',
-  description: 'electron相关知识点',
-  base: '/web-electron/', // 部署站点的基础路径
+  title: 'nuxt学习笔记',
+  description: 'nuxt相关知识点',
+  base: '/web-nuxt/', // 部署站点的基础路径
   port: 3010,
-  dest: 'web-electron', // 指定 vuepress 的输出目录
+  dest: 'web-nuxt', // 指定 vuepress 的输出目录
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
@@ -31,7 +31,7 @@ module.exports = {
       locale: 'zh', //语言
       // 其他的 Vssue 配置
       owner: 'zhoubichuan', //github账户名
-      repo: 'web-electron', //github一个项目的名称
+      repo: 'web-nuxt', //github一个项目的名称
       clientId: 'Iv1.2923ba5d4de48a3c', //注册的Client ID
       clientSecret: '110210', //注册的Client Secret
       autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
@@ -40,7 +40,7 @@ module.exports = {
   },
   // 主题配置
   themeConfig: {
-    repo: 'https://github.com/zhoubichuan/web-electron', // 源码地址
+    repo: 'https://github.com/zhoubichuan/web-nuxt', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true, // 编辑链接
@@ -58,7 +58,7 @@ module.exports = {
           },
           {
             text: '2.简单案例',
-            link: '/base/practice/1.electron',
+            link: '/base/practice/1.nuxt',
           }
         ]
       },
@@ -93,7 +93,7 @@ module.exports = {
         // '15.api'
       ],
       '/base/practice/': [
-        '1.electron',
+        '1.nuxt',
         '2.Jenkins',
         '3.gitlab',
         'vscode',

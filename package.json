@@ -1,10 +1,10 @@
 {
-  "name": "web-electron",
+  "name": "web-nuxt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "zhoubichaun@icloud.com",
-  "hommepage": "https://github.com/zhoubichuan/web-electron/",
+  "hommepage": "https://github.com/zhoubichuan/web-nuxt/",
   "private": true,
   "license": "MIT",
   "scripts": {
