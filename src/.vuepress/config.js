@@ -93,7 +93,7 @@ module.exports = {
         // '15.api'
       ],
       '/base/practice/': [
-        '1.nuxt',
+        '1.index',
         '2.Jenkins',
         '3.gitlab',
         'vscode',
