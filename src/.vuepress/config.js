@@ -54,11 +54,11 @@ module.exports = {
         items: [
           {
             text: '1.基础知识',
-            link: '/base/build/1.config'
+            link: '/base/build/1.index'
           },
           {
             text: '2.简单案例',
-            link: '/base/practice/1.nuxt',
+            link: '/base/practice/1.index',
           }
         ]
       },
@@ -66,7 +66,7 @@ module.exports = {
         text: '项目实战',
         items: [{
           text: '1.初级项目',
-          link: '/senior/use/1.recursionAndDynamics'
+          link: '/senior/use/1.index'
         },
         {
           text: '2.高级项目',
@@ -77,7 +77,7 @@ module.exports = {
     ],
     sidebar: {
       '/base/build/': [
-        '1.config',
+        '1.index',
         '2.webpack',
         '3.file',
         '4.single',
@@ -102,7 +102,7 @@ module.exports = {
         'i18n'
       ],
       '/senior/use/': [
-        '1.recursionAndDynamics',
+        '1.index',
         '2.extend',
         '3.componentCommunication',
         '4.render',
